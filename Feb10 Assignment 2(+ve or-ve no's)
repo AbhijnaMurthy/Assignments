@@ -1,0 +1,9 @@
+a=float(input('enter number'))
+if(a>=0):
+    print('the number is positive')
+else:
+    print('the number is negative')
+    
+Output:
+enter number-6
+the number is negative
