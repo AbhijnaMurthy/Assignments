@@ -1,0 +1,9 @@
+a=float(input('enter marks:'))
+if(a>=35):
+    print('pass')
+else:
+    print('fail')
+    
+Output:
+enter marks:67
+pass
