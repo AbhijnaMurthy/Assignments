@@ -1,0 +1,11 @@
+n = int(input('Enter any number: '))
+ 
+count = 0
+while n > 0:
+    count += 1
+    n//=10
+print("The number of digits in the given number are:", count)
+
+Output:
+Enter any number: 134354
+The number of digits in the given number are: 6
