@@ -1,0 +1,22 @@
+l=[]
+o=[]
+e=[]
+n=int(input('enter n value:'))
+for i in range(n):
+    x=int(input())
+    l.append(x)
+for i in l:
+    if i%2==0:
+        e.append(i)
+    else:
+        o.append(i)
+print(o,'   ',e)
+
+Output:
+enter n value:5
+10
+20
+30
+40
+50
+[]     [10, 20, 30, 40, 50]
